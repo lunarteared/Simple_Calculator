@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, rgb(194, 194, 255), rgb(255, 239, 196))
+}
+
+.calculator {
+    background-color: rgb(204, 226, 255);
+    position:absolute;
+    margin-left:40%;
+    margin-top:10%;
+    border:2px solid rgba(255, 164, 141, 0.479);
+}
+input {
+    display: block;
+    width: 17rem;
+    margin: 0.3rem;
+    border: 1px solid silver;
+    font-size: 2rem;
+    text-align:right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.numbers button, .operators button {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    border:2px solid silver;
+    outline-width: 0;
+    background-color: rgba(240, 248, 255, 0.699);
+
+}
+
+button.big-button {
+    height:6rem;
+
+}
+
+button.clear {
+    background-color: rgb(255, 141, 96);
+}
+
+button.result {
+    background-color: rgb(96, 223, 255);
+}
+
+button:hover {
+    border-color:gray;
+}
+
+button:active {
+    font-weight: bold;
+    background-color: silver;
+}
+
+.left-panel, .right-panel {
+    display:inline-block;
+    vertical-align: top;
+    margin:0.3rem;
+}
