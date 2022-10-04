@@ -70,3 +70,16 @@ let calculator = {
     }
 
 };
+/* evaluate: function () {
+    let result = math.evaluate(calculator.input.value);
+    calculator.setInput(result);
+},
+
+clear: function () {
+    calculator.input.value = "";
+},
+
+setInput: function (str) {
+    calculator.input.value = str;
+}
+*/
