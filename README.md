@@ -1,2 +1,2 @@
 # Calculator
-Simple project to test JS knowledge in practice.
+Simple project to try out my JS knowledge in practice.
